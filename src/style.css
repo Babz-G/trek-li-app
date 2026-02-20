@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Candal&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+html,
+body,
+#root {
+  height: 100%;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+:root {
+  --white: #ffffff;
+  --transWhite: #f7f7f7;
+  --trekFlyerMagenta: #f652a0;
+  --logoRed: #e0646e;
+  --transGold: #ffc606;
+  --logoGold: #f3ba48;
+  --logoGreen: #63fb64;
+  --transTeal: #36c3de;
+  --logoBlue: #3f64f0;
+  --transBlue: #3f7590;
+  --trekFlyerTeal: #009d9a;
+  --black: #000000;
+
+  --notoFont: "Noto Sans", sans-serif;
+  --candalFont: "Candal", sans-serif;
+  --bangerFont: "Bangers", system-ui;
+}
