@@ -20,6 +20,7 @@ html {
   --logoRed: #e0646e;
   --transGold: #ffc606;
   --logoGold: #f3ba48;
+  --orange: #ffa503;
   --logoGreen: #63fb64;
   --transTeal: #36c3de;
   --logoBlue: #3f64f0;
@@ -36,7 +37,7 @@ html {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
-  background-color: #e0646e;
+  background-color: var(--trekFlyerMagenta);
 }
 
 .navbar-logo {
@@ -50,4 +51,111 @@ html {
   font-size: 1.37rem;
   text-decoration: none;
   font-family: var(--candalFont);
+}
+.navbar-links a {
+  color: var(--white);
+  text-decoration: none;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.navbar-links a:hover {
+  color: var(--logoGold);
+  transform: translateY(-4px);
+}
+.hero-banner {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: bottom;
+  display: block;
+}
+
+/* .sponsor-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: var(--trekFlyerMagenta);
+}
+
+.sponsor-banner {
+  width: 50%;
+  /* max-height: 80px; */
+object-fit: cover;
+object-position: center;
+display: block;
+*/ .sponsor-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background-color: var(--trekFlyerMagenta);
+}
+
+.sponsor-bar p {
+  color: var(--white);
+  font-family: var(--candalFont);
+  font-size: 1rem;
+  margin: 0;
+}
+
+.sponsor-banner {
+  width: 70%;
+  object-fit: contain;
+  display: block;
+}
+
+.info {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.info-dates {
+  font-family: var(--bangerFont);
+  font-size: 2.5rem;
+  color: var(--logoGold);
+  letter-spacing: 2px;
+}
+
+.info-venue {
+  font-family: var(--notoFont);
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.ticket-btn {
+  display: inline-block;
+  background-color: var(--logoGold);
+  color: var(--black);
+  font-family: var(--candalFont);
+  font-size: 1.2rem;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.ticket-btn:hover {
+  transform: translateY(-3px);
+}
+
+.hours {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--transWhite);
+  font-family: var(--notoFont);
+}
+
+.hours h2 {
+  font-family: var(--bangerFont);
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
 }
