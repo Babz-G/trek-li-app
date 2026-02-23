@@ -3,26 +3,32 @@ import logo from "../images/trek-li-logo.jpeg";
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <img src={logo} alt="Trek Long Island Logo" className="navbar-logo" />
-      <ul className="navbar-links">
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/schedule">Schedule</Link>
-        </li>
-        <li>
-          <Link to="/guests">Celebrity Guests</Link>
-        </li>
-        <li>
-          <Link to="/venue">Venue Map</Link>
-        </li>
-        <li>
-          <Link to="/sponsors">Sponsors</Link>
-        </li>
-      </ul>
-    </nav>
+    <>
+      {/* Skip link for accessibility */}
+      <a href="#main-content" className="skip-link">
+        Skip to main content
+      </a>
+      <nav className="navbar" role="navigation" aria-label="Main navigation">
+        <img src={logo} alt="Trek Long Island Logo" className="navbar-logo" />
+        <ul className="navbar-links">
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/schedule">Schedule</Link>
+          </li>
+          <li>
+            <Link to="/guests">Celebrity Guests</Link>
+          </li>
+          <li>
+            <Link to="/venue">Venue Map</Link>
+          </li>
+          <li>
+            <Link to="/sponsors">Sponsors</Link>
+          </li>
+        </ul>
+      </nav>
+    </>
   );
 }
 

@@ -10,13 +10,15 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/schedule" element={<Schedule />} />
-        <Route path="/guests" element={<Guests />} />
-        <Route path="/venue" element={<Venue />} />
-        <Route path="/sponsors" element={<Sponsors />} />
-      </Routes>
+      <main id="main-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/schedule" element={<Schedule />} />
+          <Route path="/guests" element={<Guests />} />
+          <Route path="/venue" element={<Venue />} />
+          <Route path="/sponsors" element={<Sponsors />} />
+        </Routes>
+      </main>
     </div>
   );
 }

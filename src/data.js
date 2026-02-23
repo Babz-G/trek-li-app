@@ -136,3 +136,115 @@ export const idicGuests = [
     imdb: null,
   },
 ];
+export const scheduleData = {
+  main: [
+    {
+      id: 1,
+      time: "10:00 AM",
+      title: "Opening Ceremonies",
+      location: "Main Hall",
+      day: "Saturday",
+    },
+    {
+      id: 2,
+      time: "11:00 AM",
+      title: "Trek Trivia",
+      location: "Main Hall",
+      day: "Saturday",
+    },
+    {
+      id: 3,
+      time: "2:00 PM",
+      title: "Closing Ceremonies",
+      location: "Main Hall",
+      day: "Sunday",
+    },
+  ],
+  celebrity: [
+    {
+      id: 1,
+      time: "11:00 AM",
+      title: "Nana Visitor Q&A",
+      location: "Main Stage",
+      day: "Saturday",
+    },
+    {
+      id: 2,
+      time: "1:00 PM",
+      title: "Jeffrey Combs Q&A",
+      location: "Main Stage",
+      day: "Saturday",
+    },
+    {
+      id: 3,
+      time: "3:00 PM",
+      title: "Dan Jeannotte Q&A",
+      location: "Main Stage",
+      day: "Sunday",
+    },
+  ],
+  photoOp: [
+    {
+      id: 1,
+      time: "10:00 AM",
+      title: "Nana Visitor Photo Op",
+      location: "Photo Op Room",
+      day: "Saturday",
+    },
+    {
+      id: 2,
+      time: "12:00 PM",
+      title: "Jeffrey Combs Photo Op",
+      location: "Photo Op Room",
+      day: "Saturday",
+    },
+  ],
+  cosplay: [
+    {
+      id: 1,
+      time: "1:00 PM",
+      title: "Cosplay Contest",
+      location: "Main Hall",
+      day: "Saturday",
+    },
+    {
+      id: 2,
+      time: "3:00 PM",
+      title: "Cosplay Meetup",
+      location: "Lobby",
+      day: "Saturday",
+    },
+  ],
+  special: [
+    {
+      id: 1,
+      time: "7:00 PM",
+      title: "Wine & Cheese Tasting with Jeffrey Combs",
+      location: "Ballroom",
+      day: "Friday",
+    },
+    {
+      id: 2,
+      time: "9:00 PM",
+      title: "Painting with Nana Visitor",
+      location: "Art Room",
+      day: "Saturday",
+    },
+  ],
+  kids: [
+    {
+      id: 1,
+      time: "11:00 AM",
+      title: "Kids Trek Trivia",
+      location: "Kids Room",
+      day: "Saturday",
+    },
+    {
+      id: 2,
+      time: "2:00 PM",
+      title: "Costume Contest for Kids",
+      location: "Kids Room",
+      day: "Sunday",
+    },
+  ],
+};
