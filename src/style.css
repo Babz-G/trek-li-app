@@ -39,7 +39,6 @@ html {
   padding: 1rem 2rem;
   background-color: var(--trekFlyerMagenta);
 }
-
 .navbar-logo {
   height: 150px;
 }
@@ -61,7 +60,7 @@ html {
 }
 
 .navbar-links a:hover {
-  color: var(--logoGold);
+  color: var(--logoGreen);
   transform: translateY(-4px);
 }
 .hero-banner {
@@ -71,48 +70,35 @@ html {
   object-position: bottom;
   display: block;
 }
-
-/* .sponsor-bar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  padding: 1rem;
-  background-color: var(--trekFlyerMagenta);
-}
-
-.sponsor-banner {
-  width: 50%;
-  /* max-height: 80px; */
-object-fit: cover;
-object-position: center;
-display: block;
-*/ .sponsor-bar {
+.sponsor-bar {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
-  padding: 1rem;
+  gap: 1rem;
+  padding: 2rem;
   background-color: var(--trekFlyerMagenta);
 }
-
 .sponsor-bar p {
   color: var(--white);
   font-family: var(--candalFont);
-  font-size: 1rem;
+  font-size: 0.9rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  opacity: 0.8;
   margin: 0;
 }
 
-.sponsor-banner {
-  width: 70%;
+.sponsor-logo {
+  height: 200px;
   object-fit: contain;
   display: block;
+  margin: 0 auto;
 }
 
 .info {
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 2rem 1rem 2rem;
   background-color: var(--black);
   color: var(--white);
 }
@@ -120,7 +106,7 @@ display: block;
 .info-dates {
   font-family: var(--bangerFont);
   font-size: 2.5rem;
-  color: var(--logoGold);
+  color: var(--trekFlyerMagenta);
   letter-spacing: 2px;
 }
 
@@ -135,11 +121,13 @@ display: block;
   background-color: var(--logoGold);
   color: var(--black);
   font-family: var(--candalFont);
-  font-size: 1.2rem;
-  padding: 0.75rem 2rem;
-  border-radius: 8px;
+  font-size: 1rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 25px;
   text-decoration: none;
   transition: transform 0.2s ease;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .ticket-btn:hover {
@@ -148,9 +136,10 @@ display: block;
 
 .hours {
   text-align: center;
-  padding: 2rem;
-  background-color: var(--transWhite);
+  padding: 1rem 2rem 2rem 2rem;
+  background-color: var(--black);
   font-family: var(--notoFont);
+  color: var(--white);
 }
 
 .hours h2 {
@@ -158,4 +147,123 @@ display: block;
   font-size: 2rem;
   letter-spacing: 2px;
   margin-bottom: 1rem;
+  color: var(--trekFlyerMagenta);
+}
+.sponsor-name {
+  color: var(--white);
+  font-family: var(--bangerFont);
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.sponsor-desc {
+  color: var(--white);
+  font-family: var(--notoFont);
+  font-size: 0.3rem;
+  max-width: 600px;
+  text-align: center;
+  margin: 0;
+}
+
+.sponsor-link {
+  color: var(--white);
+  text-decoration: none;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  transition: transform 0.2s ease, color 0.2s ease;
+  font-family: var(--candalFont);
+  font-size: 1rem;
+}
+
+.sponsor-link:hover {
+  color: var(--logoGreen);
+  transform: translateY(-4px);
+}
+.guests-page {
+  background-color: var(--black);
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.guests-title {
+  font-family: var(--bangerFont);
+  font-size: 3rem;
+  color: var(--trekFlyerMagenta);
+  letter-spacing: 3px;
+  margin-bottom: 0.5rem;
+}
+
+.guests-subtitle {
+  font-family: var(--notoFont);
+  color: var(--white);
+  opacity: 0.7;
+  margin-bottom: 2rem;
+}
+
+.guests-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.guest-card {
+  background-color: #111;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.guest-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(246, 82, 160, 0.6);
+  border-color: var(--trekFlyerMagenta);
+}
+
+.guest-img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.guest-info {
+  padding: 1rem;
+}
+
+.guest-name {
+  font-family: var(--candalFont);
+  color: var(--white);
+  font-size: 1rem;
+  margin: 0 0 0.3rem 0;
+}
+
+.guest-series {
+  font-family: var(--notoFont);
+  color: var(--trekFlyerMagenta);
+  font-size: 0.85rem;
+  margin: 0;
+}
+.idic-section {
+  margin-top: 4rem;
+}
+
+.idic-title {
+  font-family: var(--bangerFont);
+  font-size: 2.5rem;
+  color: var(--trekFlyerMagenta);
+  letter-spacing: 3px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.guest-imdb-link {
+  color: var(--white);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.guest-imdb-link:hover {
+  color: var(--trekFlyerMagenta);
 }

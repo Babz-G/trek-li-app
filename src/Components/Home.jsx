@@ -1,5 +1,5 @@
 import banner from "../images/trek-li-banner.png";
-import transporterBanner from "../images/sponsor-banner.jpeg";
+import transporterLogo from "../images/transporter-room-logo.jpeg";
 
 function Home() {
   return (
@@ -11,7 +11,7 @@ function Home() {
       <section className="info">
         <h2 className="info-dates">June 12 – 14, 2026</h2>
         <p className="info-venue">
-          Hyatt Regency Long Island · 1717 Motor Pkwy, Hauppauge, NY
+          Hyatt Regency Long Island · 1717 Motor Pkwy, Hauppauge, NY 11788
         </p>
         <a
           href="http://treklongislandtickets.square.site/"
@@ -32,10 +32,24 @@ function Home() {
       <div className="sponsor-bar">
         <p>App Sponsored by</p>
         <img
-          src={transporterBanner}
+          src={transporterLogo}
           alt="The Transporter Room Podcast"
-          className="sponsor-banner"
+          className="sponsor-logo"
         />
+        <h3 className="sponsor-name">The Transporter Room Podcast</h3>
+        <p className="sponsor-desc">
+          Exploring and celebrating the lives forever transformed by the Star
+          Trek universe. Each week, Chris Garis and the crew sit down with cast,
+          crew, scientists and fans whose journeys have been shaped by the
+          franchise.
+        </p>
+        <a
+          href="https://thetransporterroom.net"
+          target="_blank"
+          className="sponsor-link"
+        >
+          thetransporterroom.net
+        </a>
       </div>
     </div>
   );
