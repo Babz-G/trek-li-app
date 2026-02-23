@@ -37,18 +37,23 @@ function Home() {
 
       <section className="sponsor-bar" aria-label="App sponsor information">
         <p>App Sponsored by</p>
+        {/* <img
+          src={transporterLogo}
+          alt="The Transporter Room Podcast logo"
+          className="sponsor-logo"
+        /> */}
+        <h2 className="sponsor-name">The Transporter Room Podcast</h2>
+        {/* <p className="sponsor-desc">
+          Exploring and celebrating the lives forever transformed by the Star
+          Trek universe. Each week, Chris Garis and the crew sit down with cast,
+          crew, scientists and fans whose journeys have been shaped by the
+          franchise.
+        </p> */}
         <img
           src={transporterLogo}
           alt="The Transporter Room Podcast logo"
           className="sponsor-logo"
         />
-        <h2 className="sponsor-name">The Transporter Room Podcast</h2>
-        <p className="sponsor-desc">
-          Exploring and celebrating the lives forever transformed by the Star
-          Trek universe. Each week, Chris Garis and the crew sit down with cast,
-          crew, scientists and fans whose journeys have been shaped by the
-          franchise.
-        </p>
         <a
           href="https://thetransporterroom.net"
           target="_blank"
