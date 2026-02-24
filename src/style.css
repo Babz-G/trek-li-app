@@ -32,6 +32,8 @@ html {
   --candalFont: "Candal", sans-serif;
   --bangerFont: "Bangers", system-ui;
 }
+
+/* ======= NAVBAR ======= */
 .navbar {
   display: flex;
   align-items: center;
@@ -59,11 +61,12 @@ html {
   display: inline-block;
   transition: transform 0.2s ease, color 0.2s ease;
 }
-
 .navbar-links a:hover {
   color: var(--logoGreen);
   transform: translateY(-4px);
 }
+
+/* ======= HOME PAGE ======= */
 .hero-banner {
   width: 100%;
   max-height: 400px;
@@ -71,6 +74,61 @@ html {
   object-position: bottom;
   display: block;
 }
+
+.info {
+  text-align: center;
+  padding: 2rem 2rem 1rem 2rem;
+  background-color: #0d0d2b;
+  color: var(--white);
+  position: relative;
+  overflow: hidden;
+}
+.info-dates {
+  font-family: var(--bangerFont);
+  font-size: 2.5rem;
+  color: var(--trekFlyerMagenta);
+  letter-spacing: 2px;
+}
+.info-venue {
+  font-family: var(--notoFont);
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+.ticket-btn {
+  display: inline-block;
+  background-color: var(--logoGold);
+  color: var(--black);
+  font-family: var(--candalFont);
+  font-size: 1rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.ticket-btn:hover {
+  transform: translateY(-3px);
+}
+
+.hours {
+  text-align: center;
+  padding: 1rem 2rem 2rem 2rem;
+  background-color: #0d0d2b;
+  font-family: var(--notoFont);
+  color: var(--white);
+  position: relative;
+  overflow: hidden;
+}
+.hours h2 {
+  font-family: var(--bangerFont);
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  color: var(--trekFlyerMagenta);
+}
+
+/* ======= SPONSOR BAR ======= */
 .sponsor-bar {
   display: flex;
   flex-direction: column;
@@ -78,7 +136,7 @@ html {
   justify-content: center;
   gap: 0.75rem;
   padding: 2rem;
-  background-color: #0d0d2b;
+  background-color: var(--trekFlyerMagenta);
 }
 .sponsor-bar p {
   color: var(--white);
@@ -89,7 +147,6 @@ html {
   opacity: 0.6;
   margin: 0;
 }
-
 .sponsor-logo {
   height: 160px;
   object-fit: contain;
@@ -104,83 +161,6 @@ html {
   letter-spacing: 2px;
   margin: 0;
 }
-
-.info {
-  text-align: center;
-  padding: 2rem 2rem 1rem 2rem;
-  background-color: #0d0d2b;
-  color: var(--white);
-  position: relative;
-  overflow: hidden;
-}
-
-.info-dates {
-  font-family: var(--bangerFont);
-  font-size: 2.5rem;
-  color: var(--trekFlyerMagenta);
-  letter-spacing: 2px;
-}
-
-.info-venue {
-  font-family: var(--notoFont);
-  font-size: 1.1rem;
-  margin-bottom: 1.5rem;
-}
-
-.ticket-btn {
-  display: inline-block;
-  background-color: var(--logoGold);
-  color: var(--black);
-  font-family: var(--candalFont);
-  font-size: 1rem;
-  padding: 0.6rem 1.5rem;
-  border-radius: 25px;
-  text-decoration: none;
-  transition: transform 0.2s ease;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-.ticket-btn:hover {
-  transform: translateY(-3px);
-}
-
-.hours {
-  text-align: center;
-  padding: 1rem 2rem 2rem 2rem;
-  background-color: #0d0d2b;
-  font-family: var(--notoFont);
-  color: var(--white);
-  position: relative;
-  overflow: hidden;
-}
-
-.hours h2 {
-  font-family: var(--bangerFont);
-  font-size: 2rem;
-  letter-spacing: 2px;
-  margin-bottom: 1rem;
-  color: var(--trekFlyerMagenta);
-}
-/* .sponsor-name {
-  color: var(--white);
-  font-family: var(--bangerFont);
-  font-size: 1.5rem;
-  letter-spacing: 2px;
-  margin: 0;
-}
-.sponsor-bar {
-  background-color: var(--trekFlyerMagenta); */
-
-/* .sponsor-desc {
-  color: var(--white);
-  font-family: var(--notoFont);
-  font-size: 0.95rem;
-  max-width: 600px;
-  text-align: center;
-  margin: 0;
-} */
-
 .sponsor-link {
   color: var(--white);
   text-decoration: none;
@@ -190,18 +170,18 @@ html {
   font-family: var(--candalFont);
   font-size: 1rem;
 }
-
 .sponsor-link:hover {
   color: var(--logoGreen);
   transform: translateY(-4px);
 }
+
+/* ======= GUESTS PAGE ======= */
 .guests-page {
   background-color: var(--black);
   min-height: 100vh;
   padding: 2rem;
   text-align: center;
 }
-
 .guests-title {
   font-family: var(--bangerFont);
   font-size: 3rem;
@@ -209,14 +189,12 @@ html {
   letter-spacing: 3px;
   margin-bottom: 0.5rem;
 }
-
 .guests-subtitle {
   font-family: var(--notoFont);
   color: var(--white);
   opacity: 0.7;
   margin-bottom: 2rem;
 }
-
 .guests-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -224,7 +202,6 @@ html {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 .guest-card {
   background-color: #111;
   border-radius: 12px;
@@ -232,30 +209,25 @@ html {
   transition: transform 0.2s ease;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
-
 .guest-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 0 20px rgba(246, 82, 160, 0.6);
   border-color: var(--trekFlyerMagenta);
 }
-
 .guest-img {
   width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
 }
-
 .guest-info {
   padding: 1rem;
 }
-
 .guest-name {
   font-family: var(--candalFont);
   color: var(--white);
   font-size: 1rem;
   margin: 0 0 0.3rem 0;
 }
-
 .guest-series {
   font-family: var(--notoFont);
   color: var(--trekFlyerMagenta);
@@ -265,7 +237,6 @@ html {
 .idic-section {
   margin-top: 4rem;
 }
-
 .idic-title {
   font-family: var(--bangerFont);
   font-size: 2.5rem;
@@ -282,13 +253,14 @@ html {
 .guest-imdb-link:hover {
   color: var(--trekFlyerMagenta);
 }
+
+/* ======= SCHEDULE PAGE ======= */
 .schedule-page {
   background-color: var(--black);
   min-height: 100vh;
   padding: 2rem;
   text-align: center;
 }
-
 .schedule-title {
   font-family: var(--bangerFont);
   font-size: 3rem;
@@ -296,7 +268,6 @@ html {
   letter-spacing: 3px;
   margin-bottom: 0.5rem;
 }
-
 .schedule-quote {
   font-family: var(--notoFont);
   font-style: italic;
@@ -304,7 +275,6 @@ html {
   margin-bottom: 2rem;
   font-size: 1.1rem;
 }
-
 .schedule-tabs {
   display: flex;
   flex-wrap: wrap;
@@ -312,7 +282,6 @@ html {
   justify-content: center;
   margin-bottom: 2rem;
 }
-
 .schedule-tab {
   border: none;
   border-radius: 25px;
@@ -324,18 +293,20 @@ html {
   transition: transform 0.2s ease, opacity 0.2s ease;
   opacity: 0.7;
 }
-
 .schedule-tab:hover {
   transform: translateY(-3px);
   opacity: 1;
+  filter: brightness(1.15);
 }
-
 .schedule-tab.active {
   opacity: 1;
   transform: translateY(-3px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  filter: brightness(1.15);
 }
-
+.schedule-tab.active:hover {
+  filter: brightness(1.25);
+}
 .schedule-list {
   max-width: 800px;
   margin: 0 auto;
@@ -343,7 +314,6 @@ html {
   flex-direction: column;
   gap: 1rem;
 }
-
 .schedule-card {
   display: flex;
   align-items: center;
@@ -355,55 +325,30 @@ html {
   border: 1px solid rgba(255, 255, 255, 0.1);
   transition: transform 0.2s ease;
 }
-
 .schedule-card:hover {
   transform: translateX(6px);
   border-color: var(--trekFlyerMagenta);
 }
-
 .schedule-time {
   font-family: var(--candalFont);
   color: var(--trekFlyerMagenta);
   font-size: 1.1rem;
   min-width: 90px;
 }
-
 .schedule-event-title {
   font-family: var(--candalFont);
   color: var(--white);
   margin: 0 0 0.3rem 0;
   font-size: 1.1rem;
 }
-
 .schedule-meta {
   font-family: var(--notoFont);
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.85rem;
   margin: 0;
 }
-/* Accessibility */
-:focus {
-  outline: 3px solid var(--logoGold);
-  outline-offset: 3px;
-}
 
-.skip-link {
-  position: absolute;
-  top: -40px;
-  left: 0;
-  background: var(--logoGold);
-  color: var(--black);
-  padding: 8px;
-  text-decoration: none;
-  font-family: var(--candalFont);
-  z-index: 100;
-}
-
-.skip-link:focus {
-  top: 0;
-}
-
-/* Star background */
+/* ======= STAR BACKGROUND ======= */
 .info::before,
 .hours::before {
   content: "";
@@ -446,4 +391,27 @@ html {
   100% {
     opacity: 0.6;
   }
+}
+
+/* ======= ACCESSIBILITY ======= */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--logoGold);
+  color: var(--black);
+  padding: 8px;
+  text-decoration: none;
+  font-family: var(--candalFont);
+  z-index: 100;
+}
+.skip-link:focus {
+  top: 0;
+}
+:focus {
+  outline: none;
+}
+:focus-visible {
+  outline: 3px solid var(--logoGold);
+  outline-offset: 3px;
 }
