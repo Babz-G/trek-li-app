@@ -1,5 +1,6 @@
 import banner from "../images/trek-li-banner.png";
 import transporterLogo from "../images/transporter-room-logo.jpeg";
+import { FaFacebook, FaInstagram, FaMastodon } from "react-icons/fa6";
 
 function Home() {
   return (
@@ -13,10 +14,11 @@ function Home() {
       </section>
 
       <section className="info" aria-label="Convention details">
-        <h1 className="info-dates">June 12 – 14, 2026</h1>
+        <h1 className="info-dates">June 12 - 14, 2026</h1>
         <p className="info-venue">
           Hyatt Regency Long Island · 1717 Motor Pkwy, Hauppauge, NY
         </p>
+
         <a
           href="http://treklongislandtickets.square.site/"
           target="_blank"
@@ -30,30 +32,49 @@ function Home() {
 
       <section className="hours" aria-label="Convention hours">
         <h2>Convention Hours</h2>
-        <p>Friday: 5:00 PM – 11:00 PM</p>
-        <p>Saturday: 10:00 AM – 12:00 AM</p>
-        <p>Sunday: 10:00 AM – 6:00 PM</p>
+        <p>Friday: 5:00 PM - 11:00 PM</p>
+        <p>Saturday: 10:00 AM - 12:00 AM</p>
+        <p>Sunday: 10:00 AM - 6:00 PM</p>
       </section>
+
+      <div className="social-links" aria-label="Trek Long Island social media">
+        <a
+          href="https://www.facebook.com/TrekLongIsland"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Trek Long Island on Facebook - opens in new tab"
+        >
+          <FaFacebook />
+        </a>
+
+        <a
+          href="https://www.instagram.com/treklongisland/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Trek Long Island on Instagram - opens in new tab"
+        >
+          <FaInstagram />
+        </a>
+
+        <a
+          href="https://mastodon.world/@TrekLongIsland"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Trek Long Island on Mastodon - opens in new tab"
+        >
+          <FaMastodon />
+        </a>
+      </div>
 
       <section className="sponsor-bar" aria-label="App sponsor information">
         <p>App Sponsored by</p>
-        {/* <img
-          src={transporterLogo}
-          alt="The Transporter Room Podcast logo"
-          className="sponsor-logo"
-        /> */}
-        <h2 className="sponsor-name">The Transporter Room Podcast</h2>
-        {/* <p className="sponsor-desc">
-          Exploring and celebrating the lives forever transformed by the Star
-          Trek universe. Each week, Chris Garis and the crew sit down with cast,
-          crew, scientists and fans whose journeys have been shaped by the
-          franchise.
-        </p> */}
         <img
           src={transporterLogo}
           alt="The Transporter Room Podcast logo"
           className="sponsor-logo"
         />
+        <h2 className="sponsor-name">The Transporter Room Podcast</h2>
+
         <a
           href="https://thetransporterroom.net"
           target="_blank"

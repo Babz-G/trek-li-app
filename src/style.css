@@ -33,7 +33,7 @@ html {
   --bangerFont: "Bangers", system-ui;
 }
 
-/* ======= NAVBAR ======= */
+/* ✨✨✨✨ NAVBAR ✨✨✨✨ */
 .navbar {
   display: flex;
   align-items: center;
@@ -66,7 +66,7 @@ html {
   transform: translateY(-4px);
 }
 
-/* ======= HOME PAGE ======= */
+/* ✨✨✨✨ HOME PAGE ✨✨✨✨ */
 .hero-banner {
   width: 100%;
   max-height: 400px;
@@ -128,7 +128,7 @@ html {
   color: var(--trekFlyerMagenta);
 }
 
-/* ======= SPONSOR BAR ======= */
+/* ✨✨✨✨ SPONSOR BAR ✨✨✨✨ */
 .sponsor-bar {
   display: flex;
   flex-direction: column;
@@ -148,34 +148,34 @@ html {
   margin: 0;
 }
 .sponsor-logo {
-  height: 160px;
+  height: 80px;
   object-fit: contain;
   display: block;
   margin: 0 auto;
   border-radius: 50%;
 }
+
 .sponsor-name {
   color: var(--white);
-  font-family: var(--bangerFont);
-  font-size: 1.5rem;
-  letter-spacing: 2px;
+  font-family: var(--notoFont);
+  font-size: 1rem;
+  letter-spacing: 1px;
   margin: 0;
 }
 .sponsor-link {
   color: var(--white);
   text-decoration: none;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  display: inline-block;
+  font-family: var(--notoFont);
+  font-size: 0.85rem;
   transition: transform 0.2s ease, color 0.2s ease;
-  font-family: var(--candalFont);
-  font-size: 1rem;
+  display: inline-block;
 }
 .sponsor-link:hover {
   color: var(--logoGreen);
   transform: translateY(-4px);
 }
 
-/* ======= GUESTS PAGE ======= */
+/* ✨✨✨✨ GUESTS PAGE ✨✨✨✨ */
 .guests-page {
   background-color: var(--black);
   min-height: 100vh;
@@ -184,6 +184,7 @@ html {
 }
 .guests-title {
   font-family: var(--bangerFont);
+  font-family: var(--notoFont);
   font-size: 3rem;
   color: var(--trekFlyerMagenta);
   letter-spacing: 3px;
@@ -254,7 +255,7 @@ html {
   color: var(--trekFlyerMagenta);
 }
 
-/* ======= SCHEDULE PAGE ======= */
+/* ✨✨✨✨ SCHEDULE PAGE ✨✨✨✨ */
 .schedule-page {
   background-color: var(--black);
   min-height: 100vh;
@@ -348,7 +349,7 @@ html {
   margin: 0;
 }
 
-/* ======= STAR BACKGROUND ======= */
+/* ✨✨✨✨STAR BACKGROUND ✨✨✨✨ */
 .info::before,
 .hours::before {
   content: "";
@@ -393,7 +394,7 @@ html {
   }
 }
 
-/* ======= ACCESSIBILITY ======= */
+/* ✨✨✨✨ ACCESSIBILITY ✨✨✨✨ */
 .skip-link {
   position: absolute;
   top: -40px;
@@ -414,4 +415,99 @@ html {
 :focus-visible {
   outline: 3px solid var(--logoGold);
   outline-offset: 3px;
+}
+/* ✨✨✨✨MOBILE RESPONSIVENESS✨✨✨✨*/
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .navbar-logo {
+    height: 100px;
+  }
+  .navbar-links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1rem;
+    padding: 0;
+    max-width: 320px;
+  }
+
+  /* ✨✨Hero banner✨✨ */
+  .hero-banner {
+    max-height: 250px;
+  }
+
+  /* ✨✨Info section✨✨ */
+  .info-dates {
+    font-size: 2rem;
+  }
+  .info-venue {
+    font-size: 0.95rem;
+  }
+
+  /* ✨✨ Guests grid - 2 columns on mobile ✨✨*/
+  .guests-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .guests-title {
+    font-size: 2rem;
+  }
+  .idic-title {
+    font-size: 1.8rem;
+  }
+
+  /* ✨✨Schedule✨✨ */
+  .schedule-title {
+    font-size: 2rem;
+  }
+  .schedule-tabs {
+    gap: 0.5rem;
+  }
+  .schedule-tab {
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+  }
+  .schedule-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .schedule-time {
+    font-size: 0.95rem;
+  }
+
+  /* Sponsor bar */
+  .sponsor-logo {
+    height: 120px;
+  }
+  .sponsor-name {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 1.5rem;
+  background-color: #0d0d2b;
+}
+
+.social-links a {
+  color: var(--white);
+  font-size: 2rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.social-links a:hover {
+  color: var(--logoGreen);
+  transform: translateY(-4px);
 }
