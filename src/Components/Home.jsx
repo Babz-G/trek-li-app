@@ -18,7 +18,6 @@ function Home() {
         <p className="info-venue">
           Hyatt Regency Long Island · 1717 Motor Pkwy, Hauppauge, NY
         </p>
-
         <a
           href="http://treklongislandtickets.square.site/"
           target="_blank"
@@ -46,7 +45,6 @@ function Home() {
         >
           <FaFacebook />
         </a>
-
         <a
           href="https://www.instagram.com/treklongisland/"
           target="_blank"
@@ -55,7 +53,6 @@ function Home() {
         >
           <FaInstagram />
         </a>
-
         <a
           href="https://mastodon.world/@TrekLongIsland"
           target="_blank"
@@ -66,6 +63,16 @@ function Home() {
         </a>
       </div>
 
+      <a
+        href="https://treklongisland.beehiiv.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mailing-list-btn"
+        aria-label="Join the Trek Long Island mailing list - opens in new tab"
+      >
+        Join Our Mailing List
+      </a>
+
       <section className="sponsor-bar" aria-label="App sponsor information">
         <p>App Sponsored by</p>
         <img
@@ -74,7 +81,6 @@ function Home() {
           className="sponsor-logo"
         />
         <h2 className="sponsor-name">The Transporter Room Podcast</h2>
-
         <a
           href="https://thetransporterroom.net"
           target="_blank"

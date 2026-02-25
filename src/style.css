@@ -96,7 +96,8 @@ html {
 }
 .ticket-btn {
   display: inline-block;
-  background-color: var(--logoGold);
+  /* background-color: var(--logoGold); */
+  background-color: var(--transTeal);
   color: var(--black);
   font-family: var(--candalFont);
   font-size: 1rem;
@@ -109,6 +110,7 @@ html {
 }
 .ticket-btn:hover {
   transform: translateY(-3px);
+  background-color: var(--trekFlyerTeal);
 }
 
 .hours {
@@ -510,4 +512,149 @@ html {
 .social-links a:hover {
   color: var(--logoGreen);
   transform: translateY(-4px);
+}
+.mailing-list-btn {
+  display: inline-block;
+  background-color: var(--transTeal);
+  color: var(--white);
+  font-family: var(--candalFont);
+  font-size: 1rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  display: block;
+  text-align: center;
+  margin: 1rem auto;
+  width: fit-content;
+}
+
+.mailing-list-btn:hover {
+  transform: translateY(-3px);
+  background-color: var(--trekFlyerTeal);
+}
+/* ======= SPONSORS PAGE ======= */
+.sponsors-page {
+  background-color: var(--black);
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.sponsors-title {
+  font-family: var(--bangerFont);
+  font-size: 3rem;
+  color: var(--trekFlyerMagenta);
+  letter-spacing: 3px;
+  margin-bottom: 0.5rem;
+}
+
+.sponsors-subtitle {
+  font-family: var(--notoFont);
+  color: var(--white);
+  opacity: 0.7;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+}
+
+.sponsor-level-title {
+  font-family: var(--bangerFont);
+  font-size: 2rem;
+  color: var(--logoGold);
+  letter-spacing: 2px;
+  margin: 2rem 0 1rem 0;
+}
+
+.sponsor-card {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: #111;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.sponsor-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--trekFlyerMagenta);
+  box-shadow: 0 0 20px rgba(246, 82, 160, 0.3);
+}
+
+.sponsor-card-img {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.sponsor-card-level {
+  font-family: var(--candalFont);
+  color: var(--trekFlyerMagenta);
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 0 0.3rem 0;
+}
+
+.sponsor-card-name {
+  font-family: var(--bangerFont);
+  color: var(--white);
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  margin: 0 0 0.5rem 0;
+}
+
+.sponsor-card-desc {
+  font-family: var(--notoFont);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  margin: 0 0 0.75rem 0;
+  line-height: 1.5;
+}
+
+.sponsor-card-link {
+  display: inline-block;
+  color: var(--logoGold);
+  font-family: var(--candalFont);
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.sponsor-card-link:hover {
+  color: var(--logoGreen);
+  transform: translateY(-2px);
+}
+
+.fan-sponsors-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
+  margin: 1rem auto 2rem auto;
+  max-width: 600px;
+}
+
+.fan-sponsor-name {
+  font-family: var(--notoFont);
+  color: var(--white);
+  font-size: 1rem;
+  background-color: #111;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.charities-section {
+  margin-top: 3rem;
 }
