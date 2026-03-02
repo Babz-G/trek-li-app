@@ -28,7 +28,15 @@ function Home() {
           Purchase Tickets
         </a>
       </section>
-
+      <a
+        href="https://www.etsy.com/shop/TrekLongIsland"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="swag-btn"
+        aria-label="Shop official Trek Long Island merchandise on Etsy - opens in new tab"
+      >
+        Official Trek LI Swag
+      </a>
       <section className="hours" aria-label="Convention hours">
         <h2>Convention Hours</h2>
         <p>Friday: 5:00 PM - 11:00 PM</p>

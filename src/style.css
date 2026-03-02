@@ -132,6 +132,25 @@ html {
 .home {
   background-color: var(--logoGreen);
 }
+.swag-btn {
+  display: inline-block;
+  background-color: var(--trekFlyerMagenta);
+  color: var(--white);
+  font-family: var(--candalFont);
+  font-size: 1rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+.swag-btn:hover {
+  transform: translateY(-3px);
+  background-color: var(--logoRed);
+}
 /* ✨✨✨ SOCIAL LINKS ✨✨✨¨ */
 
 .social-links {
