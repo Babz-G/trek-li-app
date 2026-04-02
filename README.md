@@ -18,7 +18,7 @@
 
 This is my **first commissioned, real-world project**, built for an actual client and convention attendees.
 
-**Trek Long Island** is Long Island's Star Trek convention, running June 12-14, 2026 at the Hyatt Regency Long Island. As a proud member of the [Trek LI crew](https://treklongisland.com/our-crew/), I was brought on to design and develop an official companion app for the event.
+**Trek Long Island** is Long Island's Star Trek convention, running June 12-14, 2026 at the Hyatt Regency Long Island. As a member of the [Trek LI crew](https://treklongisland.com/our-crew/), I was brought on to design and develop an official companion app for the event.
 
 The app serves as a one-stop resource for attendees, featuring the full convention schedule, celebrity guest profiles, venue information, sponsor listings, and more. Currently built as a **React web app**, it is planned for conversion to **React Native** for native iOS and Android distribution.
 
@@ -26,13 +26,21 @@ The app serves as a one-stop resource for attendees, featuring the full conventi
 
 ## 🚀 Live Site
 
-Coming soon, deploying to Netlify!
+Coming soon!
 
 ---
 
 ## 🖼️ Screenshots
 
-Coming soon!
+### 🏠 Home Page
+
+### 🗓️ Schedule
+
+### 🌟 Celebrity Guests
+
+### 💼 Sponsors
+
+### 📬 Contact
 
 ---
 
