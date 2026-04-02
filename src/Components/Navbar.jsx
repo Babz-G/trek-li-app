@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../images/trek-li-logo.jpeg";
+import { FaShoppingBag } from "react-icons/fa";
 
 function Navbar() {
   return (
@@ -29,6 +30,15 @@ function Navbar() {
           <li>
             <Link to="/contact">Contact</Link>
           </li>
+          <a
+            href="https://www.etsy.com/shop/TrekLongIsland"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="swag-icon"
+            aria-label="Shop official Trek Long Island merchandise on Etsy - opens in new tab"
+          >
+            <FaShoppingBag />
+          </a>
         </ul>
       </nav>
     </>

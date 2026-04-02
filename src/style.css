@@ -67,6 +67,18 @@ html {
   color: var(--logoGreen);
   transform: translateY(-4px);
 }
+.swag-icon {
+  color: var(--white);
+  font-size: 1.8rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+  display: flex;
+  align-items: center;
+}
+
+.swag-icon:hover {
+  color: var(--logoGreen);
+  transform: translateY(-4px);
+}
 
 /* ✨✨✨ HOME PAGE ✨✨✨ */
 
@@ -137,7 +149,7 @@ html {
   background-color: var(--trekFlyerMagenta);
   color: var(--white);
   font-family: var(--candalFont);
-  font-size: 1rem;
+  font-size: 0.7rem;
   padding: 0.6rem 1.5rem;
   border-radius: 25px;
   text-decoration: none;
