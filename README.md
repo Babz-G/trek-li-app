@@ -1,13 +1,13 @@
 # 🖖 Trek Long Island Convention App
 
-> ⚠️ **Work in Progress** — This app is actively being developed and will be available for download on the **App Store** and **Google Play** end of May 2026.
+> ⚠️ **Work in Progress!** This app is actively being developed and will be available for download on the **App Store** and **Google Play** beginning of 2026.
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -26,7 +26,7 @@ The app serves as a one-stop resource for attendees, featuring the full conventi
 
 ## 🚀 Live Site
 
-Coming soon!
+🌐 [trek-li-app.vercel.app](https://trek-li-app.vercel.app/)
 
 ---
 
@@ -66,7 +66,7 @@ Coming soon!
 | Languages  | HTML, CSS, JavaScript       |
 | Framework  | React + Vite + React Router |
 | Libraries  | React Icons                 |
-| Deployment | Netlify (coming soon)       |
+| Deployment | Vercel                      |
 
 **Planned - Backend (Phase 2)**
 
@@ -83,6 +83,26 @@ Coming soon!
 | ------------ | ----------------------------- |
 | Framework    | React Native / Expo           |
 | Distribution | Apple App Store & Google Play |
+
+---
+
+## 💻 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/Babz-G/trek-li-app.git
+
+# Navigate into the project
+cd trek-li-app
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+```
+
+Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
@@ -162,7 +182,10 @@ CREATE TABLE users (
 ## 👩‍💻 Developer
 
 **Barbara Gaynor**  
-Jr Full Stack Developer | Graphic Designer | Aspiring UX/UI Designer | Bootcamp Student
+🎨 Graphic Designer | Web Developer | Aspiring UX/UI Designer
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Babz-G)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/babzgaynor)
 
 ---
 
