@@ -1,6 +1,6 @@
 # 🖖 Trek Long Island Convention App
 
-> ⚠️ **Work in Progress!** This app is actively being developed and will be available for download on the **App Store** and **Google Play** beginning of 2026.
+> ⚠️ **Work in Progress!** This app is actively being developed and will be available for download on the **App Store** and **Google Play** beginning of June 2026.
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
