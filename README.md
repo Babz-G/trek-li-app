@@ -11,9 +11,9 @@
 
 ## 📌 Project Description & Purpose
 
-This is my **first real-world, commissioned project** and my first app built for an actual client! 🖖
+This is my **first real-world, commissioned project** and my first app built for an actual client! 🥳
 
-A close friend of mine runs **Trek Long Island**, Long Island's very own Star Trek convention (June 12–14, 2026 at the Hyatt Regency Long Island), and asked me to build an official companion app for attendees.
+A close friend of mine runs **Trek Long Island**, Long Island's very own Star Trek convention (June 12-14, 2026 at the Hyatt Regency Long Island), and asked me to build an official companion app for attendees. As a proud member of the [Trek LI crew](https://treklongisland.com/our-crew/), this one means a lot! 🖖
 
 The app gives attendees everything they need in one place. The full schedule, celebrity guest info, venue details, sponsor listings and more. It is currently built as a **React web app** and will be converted to **React Native** for native iOS and Android distribution.
 
@@ -21,26 +21,28 @@ The app gives attendees everything they need in one place. The full schedule, ce
 
 ## 🚀 Live Site
 
-Coming soon — deploying to Netlify!
+Coming soon, deploying to Netlify!
 
 ---
 
 ## 🖼️ Screenshots
 
+Coming soon!
+
 ---
 
 ## ✨ Features
 
-- 🗓️ **Interactive Schedule** — Tabbed navigation across 6 schedule categories (Main, Celebrity, Photo Ops, Cosplay, Special Events, and Kids Events)
-- 🌟 **Celebrity Guests** — Full guest grid with headshots, Star Trek series info, and IMDB links
-- 🏳️‍🌈 **IDIC Track** — Dedicated section for diversity panel guests and panelists
-- 🎟️ **Ticket Button** — Direct link to purchase convention passes
-- 🏨 **Venue Map** — Interactive map and details for the Hyatt Regency Long Island
-- 💼 **Sponsors Page** — Full sponsor listings by level (Captain, Commander, Lieutenant) plus fan sponsors and charitable organizations supported by Trek LI
-- 📬 **Contact Page** — All Trek LI department emails and social media links
-- 🛍️ **Official Swag** — Shopping bag icon linking directly to the Trek LI Etsy store
-- 📱 **Mobile Responsive** — Optimized for phone use since most attendees will use the app on the go
-- ♿ **WCAG Accessibility** — Semantic HTML, ARIA labels, skip links, and focus-visible styles implemented using the axe Accessibility Linter
+- 🗓️ **Interactive Schedule** - Tabbed navigation across 6 schedule categories (Main, Celebrity, Photo Ops, Cosplay, Special Events, and Kids Events)
+- 🌟 **Celebrity Guests** - Full guest grid with headshots, Star Trek series info, and IMDB links
+- 🏳️‍🌈 **IDIC Track** - Dedicated section for diversity panel guests and panelists
+- 🎟️ **Ticket Button** - Direct link to purchase convention passes
+- 🏨 **Venue Map** - Interactive map and details for the Hyatt Regency Long Island
+- 💼 **Sponsors Page** - Full sponsor listings by level (Captain, Commander, Lieutenant) plus fan sponsors and charitable organizations supported by Trek LI
+- 📬 **Contact Page** - All Trek LI department emails and social media links
+- 🛍️ **Official Swag** - Shopping bag icon linking directly to the Trek LI Etsy store
+- 📱 **Mobile Responsive** - Optimized for phone use since most attendees will use the app on the go
+- ♿ **WCAG Accessibility** - Semantic HTML, ARIA labels, skip links, and focus-visible styles implemented using the axe Accessibility Linter
 
 ---
 
@@ -55,7 +57,7 @@ Coming soon — deploying to Netlify!
 | Libraries  | React Icons                 |
 | Deployment | Netlify (coming soon)       |
 
-**Planned — Backend (Phase 2)**
+**Planned - Backend (Phase 2)**
 
 |            |                      |
 | ---------- | -------------------- |
@@ -64,7 +66,7 @@ Coming soon — deploying to Netlify!
 | Database   | PostgreSQL           |
 | Deployment | Render               |
 
-**Planned — Mobile (Phase 3)**
+**Planned - Mobile (Phase 3)**
 
 |              |                               |
 | ------------ | ----------------------------- |
