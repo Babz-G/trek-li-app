@@ -30,17 +30,15 @@ Coming soon!
 
 ---
 
-## 🖼️ Screenshots
+## 📱 App Screenshots
 
-### 🏠 Home Page
+<div align="center">
 
-### 🗓️ Schedule
+| Home                                                        | Guests                                                        | Schedule                                                        | Sponsors                                                        | Contact                                                        |
+| ----------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- | -------------------------------------------------------------- |
+| <img src="src/docs/screenshots/trek-home.png" width="160"/> | <img src="src/docs/screenshots/trek-guests.png" width="160"/> | <img src="src/docs/screenshots/trek-schedule.png" width="160"/> | <img src="src/docs/screenshots/trek-sponsors.png" width="160"/> | <img src="src/docs/screenshots/trek-contact.png" width="160"/> |
 
-### 🌟 Celebrity Guests
-
-### 💼 Sponsors
-
-### 📬 Contact
+</div>
 
 ---
 

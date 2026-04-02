@@ -28,7 +28,7 @@ function Home() {
           Purchase Tickets
         </a>
       </section>
-      <a
+      {/* <a
         href="https://www.etsy.com/shop/TrekLongIsland"
         target="_blank"
         rel="noopener noreferrer"
@@ -42,7 +42,7 @@ function Home() {
         <p>Friday: 5:00 PM - 11:00 PM</p>
         <p>Saturday: 10:00 AM - 12:00 AM</p>
         <p>Sunday: 10:00 AM - 6:00 PM</p>
-      </section>
+      </section> */}
 
       <div className="social-links" aria-label="Trek Long Island social media">
         <a

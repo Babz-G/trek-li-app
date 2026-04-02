@@ -37,24 +37,32 @@ html {
 
 .navbar {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1rem 2rem;
-  /* background-color: var(--trekFlyerMagenta); */
   background-color: var(--trekFlyerTeal);
   border-bottom: 4px solid var(--black);
+  gap: 1rem;
 }
+
 .navbar-logo {
   height: 150px;
 }
+
 .navbar-links {
   display: flex;
-  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
   list-style: none;
   color: white;
-  font-size: 1.37rem;
+  font-size: 1.2rem;
   text-decoration: none;
   font-family: var(--candalFont);
+  padding: 0;
+  margin: 0;
+  max-width: 600px;
 }
 .navbar-links a {
   color: var(--white);
@@ -702,8 +710,8 @@ html {
 }
 
 /* ✨✨✨ MOBILE RESPONSIVENESS ✨✨✨ */
-@media (max-width: 768px) {
-  .navbar {
+@media (max-width: 480px) {
+  /* .navbar {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
@@ -716,11 +724,11 @@ html {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
-    font-size: 1rem;
+    gap: 0.75rem;
+    font-size: 0.9rem;
     padding: 0;
-    max-width: 320px;
-  }
+    max-width: 500px;
+  } */
   .hero-banner {
     max-height: 250px;
   }

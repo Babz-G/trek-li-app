@@ -30,15 +30,17 @@ function Navbar() {
           <li>
             <Link to="/contact">Contact</Link>
           </li>
-          <a
-            href="https://www.etsy.com/shop/TrekLongIsland"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="swag-icon"
-            aria-label="Shop official Trek Long Island merchandise on Etsy - opens in new tab"
-          >
-            <FaShoppingBag />
-          </a>
+          <li>
+            <a
+              href="https://www.etsy.com/shop/TrekLongIsland"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="swag-icon"
+              aria-label="Shop official Trek Long Island merchandise on Etsy - opens in new tab"
+            >
+              <FaShoppingBag />
+            </a>
+          </li>
         </ul>
       </nav>
     </>
